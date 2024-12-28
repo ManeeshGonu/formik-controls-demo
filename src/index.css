@@ -4,7 +4,7 @@
 
 input,
 textarea {
-  @apply border border-gray-200  backdrop-blur-0 focus:outline-none rounded-md p-2 w-full shadow-sm;
+  @apply border border-gray-300  backdrop-blur-0 focus:outline-none rounded-md p-2 w-full shadow-sm;
 }
 
 label {
