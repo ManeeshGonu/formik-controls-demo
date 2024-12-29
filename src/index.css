@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 input,
-textarea {
+textarea,select {
   @apply border border-gray-300  backdrop-blur-0 focus:outline-none rounded-md p-2 w-full shadow-sm;
 }
+
+select {
+  @apply bg-white
+}
+
 
 label {
   @apply font-medium;

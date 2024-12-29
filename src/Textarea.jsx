@@ -2,15 +2,15 @@ import React from "react";
 import { Field, ErrorMessage } from "formik";
 import TextError from "./TextError";
 
-const Input = (props) => {
-  const { name, label, ...rest } = props;
+const Textarea = (props) => {
+  const { label, name, ...rest } = props;
   return (
     <div className="w-full">
-      <label htmlFor={name}>{label}</label>
-      <Field id={name} name={name} {...rest} />
+      <label>{label}</label>
+      <Field as="textarea" name={name} id={name} {...rest} />
       <ErrorMessage name={name} component={TextError} />
     </div>
   );
 };
 
-export default Input;
+export default Textarea;
