@@ -5,7 +5,7 @@ import TextError from "./TextError";
 const Select = (props) => {
   const { options, label, name, ...rest } = props;
   return (
-    <div className="w-full">
+    <div className="w-full my-4">
       <label>{label}</label>
       <Field as="select" name={name} id={name} {...rest}>
         {options.map((option) => {

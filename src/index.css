@@ -13,7 +13,7 @@ select {
 
 
 label {
-  @apply font-medium;
+  @apply font-bold ;
 }
 
 button {
